@@ -1,0 +1,5 @@
+css-class bashed style sheet language
+basic strusture- selector{ property:value;}
+selector-2 type ex: html self, user define name;
+property-predefined(amake only use korte hobe)
+value-predefined(amake only use korte hobe)

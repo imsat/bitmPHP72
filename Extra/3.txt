@@ -1,0 +1,9 @@
+what is tag and elemnt
+tag:syntex use to <></>
+element: <p>this is paragraph</p>
+this is is paragraph= this is element content
+Attribute:aditional information about content; p,h1,
+<br/> exceptional
+ins or u = for text underline
+a2= sup tag use korte hobe
+
