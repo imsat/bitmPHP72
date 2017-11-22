@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9fb3c1b-f3e3-4774-9d34-43e38eaf4f77" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day-3/project-one" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/satyajit182802/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/satyajit182802/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/satyajit182802/gallary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/satyajit182802/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/satyajit182802/portfolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day-4/index.html" afterPath="$PROJECT_DIR$/day-4/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day-4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="341">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -53,6 +58,11 @@
         <option value="$PROJECT_DIR$/day-3/profile.html" />
         <option value="$PROJECT_DIR$/day-3/about.html" />
         <option value="$PROJECT_DIR$/day-4/index.html" />
+        <option value="$PROJECT_DIR$/satyajit182802/about.html" />
+        <option value="$PROJECT_DIR$/satyajit182802/gallary.html" />
+        <option value="$PROJECT_DIR$/satyajit182802/portfolio.html" />
+        <option value="$PROJECT_DIR$/satyajit182802/contact.html" />
+        <option value="$PROJECT_DIR$/satyajit182802/index.html" />
       </list>
     </option>
   </component>
@@ -198,15 +208,15 @@
       <workItem from="1511178428216" duration="569000" />
       <workItem from="1511179450447" duration="17000" />
       <workItem from="1511335584312" duration="1410000" />
-      <workItem from="1511344944580" duration="1317000" />
+      <workItem from="1511344944580" duration="2431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20301000" />
+    <option name="totallyTimeSpent" value="21415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -303,10 +313,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/satyajit182802/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satyajit182802/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="108" column="7" lean-forward="false" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satyajit182802/gallary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satyajit182802/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="100" column="7" lean-forward="false" selection-start-line="100" selection-start-column="7" selection-end-line="100" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satyajit182802/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/satyajit182802/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day-4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="341">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
       </provider>
