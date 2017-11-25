@@ -69,25 +69,47 @@
     height: 50px;
 }
 .div-one{
-    height: 250px;
-    width: 100px;
+    height: 200px;
+    width: 300px;
     background-color: darkred;
-    margin-top: 50px;
-    margin-left: 50px;
-    /*border-radius: 100px;*/
-    transform: skewy(25deg);
-    float: left;
+    margin:20px 0px 0px 20px;
+    animation: bitm;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+
 }
-.div-two{
-    height: 250px;
-    width: 100px;
-    background-color: green;
-    margin-top: 50px;
+@keyframes bitm {
+    0% {background-color: green;}
+    25% {background-color: yellow;}
+    50% {background-color: black}
+    75% {background-color: blue;}
+    100% {background-color: orange;}
+}
+/*.div-one{*/
+    /*height: 250px;*/
+    /*width: 100px;*/
+    /*background-color: darkred;*/
+    /*margin-top: 50px;*/
     /*margin-left: 50px;*/
-    /*border-radius: 100px;*/
-    transform: skewy(-25deg);
-    float: left;
-}
+    /*!*border-radius: 100px;*!*/
+    /*transform: skewy(25deg);*/
+    /*float: left;*/
+/*}*/
+/*.div-two{*/
+    /*height: 250px;*/
+    /*width: 100px;*/
+    /*background-color: green;*/
+    /*margin-top: 50px;*/
+    /*transition: 1s;*/
+    /*!*margin-left: 50px;*!*/
+    /*!*border-radius: 100px;*!*/
+    /*!*transform: skewy(-25deg);*!*/
+    /*float: left;*/
+/*}*/
+/*.div-two:hover{*/
+    /*!*transform: scale(2);*!*/
+    /*transform: rotate(90deg);*/
+/*}*/
 /*.div-two{*/
     /*height: 100px;*/
     /*width: 200px;*/
