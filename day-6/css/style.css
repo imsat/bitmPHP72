@@ -90,6 +90,9 @@
     .demo{
         background-color: darkorchid;
     }
+    [class*='col-']{
+        width:100%;
+    }
 
 }
 
