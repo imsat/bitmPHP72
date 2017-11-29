@@ -89,13 +89,85 @@
     <div class="row">
         <div class="col-sm-4">
             <div class="form-group">
-            <label for="firstName">First Name</label>
-            <input type="text" name="first_name" id="firstName" class="form-control">
+                <label for="firstName">First Name</label>
+                <input type="text" placeholder="Your First Name" maxlength="10" name="first_name" id="firstName" class="form-control"/>
             </div>
             <div class="form-group">
-            <label for="lastName">Last Name</label>
-            <input type="text" name="last_name" id="lastName" class="form-control">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="last_name" placeholder="Your Last Name" id="lastName" class="form-control"/>
             </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Your Email Address" name="email_address" id="email" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Password" name="password" id="password" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="number" min="11" placeholder="Your Phone Number" name="phone_number" id="phoneNumber" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label for="dateOfBirth">Date of Birth</label>
+                <input type="date" name="date" id="dateOfBirth" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label><input type="radio" name="gender" checked value="male"/>Male</label>
+                <label><input type="radio" name="gender" value="female"/>Female</label>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea type="text" placeholder="Your Address" name="address" id="address" class="form-control" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="districtName">District name</label>
+                <select id="districtName" name="district_name" class="form-control">
+                    <option>---Select District Name---</option>
+                    <option>Nowakhali</option>
+                    <option>Barisal</option>
+                    <option>Dhaka</option>
+                    <option>Sarver</option>
+                    <option>Khulna</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="image">Image</label>
+                <input type="file" name="image" id="image" accept="image/*"/>
+            </div>
+            <div class="form-group">
+                <label for="agree" class="form-check-label">
+                    <input type="checkbox" name="agree" id="agree" class="form-check-input"/>I Agree with all terms & Condition
+                </label>
+
+            </div>
+            <div class="form-group">
+                <button type="" class="btn btn-outline-primary btn-block">Submit</button>
+            </div>
+        </div>
+        <div class="col-sm-8">
+
+            <div class="form-group row">
+            <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+            <input type="text" placeholder="Your First Name" maxlength="10" name="first_name" id="firstName" class="form-control col-sm-10"/>
+             </div>
+            <div class="form-group row">
+            <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+            <input type="text" placeholder="Your First Name" maxlength="10" name="first_name" id="firstName" class="form-control col-sm-10"/>
+             </div>
+            <div class="form-group row">
+            <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+            <input type="text" placeholder="Your First Name" maxlength="10" name="first_name" id="firstName" class="form-control col-sm-10"/>
+            </div>
+            <div class="form-group row">
+            <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+            <input type="text" placeholder="Your First Name" maxlength="10" name="first_name" id="firstName" class="form-control col-sm-10"/>
+            </div>
+            <div class="form-group row">
+            <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+            <input type="text" placeholder="Your First Name" maxlength="10" name="first_name" id="firstName" class="form-control col-sm-10"/>
+            </div>
+
         </div>
     </div>
 </div>
