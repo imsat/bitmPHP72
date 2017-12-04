@@ -45,8 +45,8 @@
         </li>
     </ul>
     <ul class="navbar-nav ">
-        <li><a href="" class="nav-link">Login</a></li>
-        <li><a href="" class="nav-link">Sign Up</a></li>
+        <li><a href="" data-toggle="modal" data-target="#modalLogin" class="nav-link">Login</a></li>
+        <li><a href="" data-toggle="modal" data-target="#modalSignIn" class="nav-link">Sign Up</a></li>
     </ul>
        </div>
     </div>
@@ -101,6 +101,9 @@
     </a>
 
 </div>
+
+<button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#modal2">Click Me</button>
+
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
@@ -120,6 +123,113 @@
                         </div>
                         <div class="modal-footer">
                             <h4>Modal Footer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="modalLogin" class="modal fade">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>User Login</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &Cross;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" placeholder="Your Email Address" name="email_address" id="email" class="form-control"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" placeholder="Enter Password" name="password" id="password" class="form-control"/>
+                                </div>
+
+                            <div class="form-group">
+                                <button type="" class="btn btn-outline-primary btn-block">Submit</button>
+                            </div>
+
+                        <div class="modal-footer">
+                            <h4>Lorem Footer</h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modalSignIn" class="modal fade">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Sign Up</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &Cross;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" placeholder="Your First Name" maxlength="10" name="first_name" id="firstName" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" name="last_name" placeholder="Your Last Name" id="lastName" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" placeholder="Your Email Address" name="email_address" id="email" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" placeholder="Enter Password" name="password" id="password" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="number" min="11" placeholder="Your Phone Number" name="phone_number" id="phoneNumber" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="dateOfBirth">Date of Birth</label>
+                                <input type="date" name="date" id="dateOfBirth" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label><input type="radio" name="gender" checked value="male"/>Male</label>
+                                <label><input type="radio" name="gender" value="female"/>Female</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <textarea type="text" placeholder="Your Address" name="address" id="address" class="form-control" rows="5"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="districtName">District name</label>
+                                <select id="districtName" name="district_name" class="form-control">
+                                    <option>---Select District Name---</option>
+                                    <option>Nowakhali</option>
+                                    <option>Barisal</option>
+                                    <option>Dhaka</option>
+                                    <option>Sarver</option>
+                                    <option>Khulna</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="image">Image</label>
+                                <input type="file" name="image" id="image" accept="image/*"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="agree" class="form-check-label">
+                                    <input type="checkbox" name="agree" id="agree" class="form-check-input"/>I Agree with all terms & Condition
+                                </label>
+
+                            </div>
+                            <div class="form-group">
+                                <button type="" class="btn btn-outline-primary btn-block">Submit</button>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="close btn btn-outline-warning" data-dismiss="modal"></button>
                         </div>
                     </div>
                 </div>
