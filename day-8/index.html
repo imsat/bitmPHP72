@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="jumbotron mb-0">
+    <div class="container">
+        <h3>Some content goes here about some thing.</h3>
+        <p>Some content goes here about some thing.Some content goes here about some thing.</p>
+    </div>
+</div>
+<nav class="navbar navbar-expand-sm bg-info navbar-dark sticky-top">
+    <div class="container">
+        <a href="" class="navbar-brand">
+            <img src="images/logo.png" alt="" style="height:40px;width:50px;">
+        </a>
+        <button type="button" class="navbar-toggler" data-target="#mainMenu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+       <div class="collapse navbar-collapse" id="mainMenu">
+    <ul class="navbar-nav mr-auto">
+        <li><a href="" class="nav-link">Home</a></li>
+        <li><a href="" class="nav-link">About</a></li>
+        <li class="dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+            <ul class="dropdown-menu bg-info">
+                <li><a href="" class="nav-link">Service one</a></li>
+                <li><a href="" class="nav-link">Service Two</a></li>
+                <li><a href="" class="nav-link">Service Three</a></li>
+            </ul>
+
+        </li>
+        <li class="dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallary</a>
+            <ul class="dropdown-menu bg-info">
+                <li><a href="" class="nav-link">Service one</a></li>
+                <li><a href="" class="nav-link">Service Two</a></li>
+                <li><a href="" class="nav-link">Service Three</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="navbar-nav ">
+        <li><a href="" class="nav-link">Login</a></li>
+        <li><a href="" class="nav-link">Sign Up</a></li>
+    </ul>
+       </div>
+    </div>
+</nav>
+<div id="mainSlider" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <ol class="carousel-indicators">
+        <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#mainSlider" data-slide-to="1"></li>
+        <li data-target="#mainSlider" data-slide-to="2"></li>
+        <li data-target="#mainSlider" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/slide1.jpg" class="w-100" height="350" alt="">
+        </div>
+        <div class="carousel-caption">
+            <h3>Some Content Goes Here</h3>
+            <p>Some Content Goes Here.Some Content Goes Here</p>
+
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide2.jpg" class="w-100" height="350" alt="">
+        </div>
+        <div class="carousel-caption">
+            <h3>Some Content Goes Here</h3>
+            <p>Some Content Goes Here.Some Content Goes Here</p>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide3.jpg" class="w-100" height="350" alt="">
+        </div>
+        <div class="carousel-caption">
+            <h3>Some Content Goes Here</h3>
+            <p>Some Content Goes Here.Some Content Goes Here</p>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide1.jpg" class="w-100" height="350" alt="">
+        </div>
+        <div class="carousel-item ">
+            <img src="images/slide4.jpg" class="w-100" height="350" alt="">
+        </div>
+        <div class="carousel-caption">
+            <h3>Some Content Goes Here</h3>
+            <p>Some Content Goes Here.Some Content Goes Here</p>
+        </div>
+
+    </div>
+    <a href="#mainSlider" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#mainSlider" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#modal">Click Me</button>
+
+            <div id="modal" class="modal fade">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Modal Header</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &Cross;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Modal Body</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <h4>Modal Footer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/popper.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>-->
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
