@@ -1,0 +1,16 @@
+/*.table-bordered th,*/
+/*.table-bordered td {*/
+    /*border: 1px solid greenyellow;*/
+    /*overflow: hidden;*/
+/*}*/
+.my-section{
+    background-color:red;
+    color:white;
+}
+.new-section{
+    background: url("images/download.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}

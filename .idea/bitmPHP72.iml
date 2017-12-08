@@ -14,5 +14,145 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://F:/xampp/htdocs/test1/vendor/composer" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/doctrine/inflector" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/doctrine/instantiator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/erusev/parsedown" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/fzaninotto/faker" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/hamcrest/hamcrest-php" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/jakub-onderka/php-console-color" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/laravel/framework" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/laravel/tinker" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/league/flysystem" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/mockery/mockery" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/monolog/monolog" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/mtdowling/cron-expression" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/myclabs/deep-copy" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/nesbot/carbon" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/nikic/php-parser" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/paragonie/random_compat" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpdocumentor/reflection-common" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpdocumentor/type-resolver" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpspec/prophecy" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-code-coverage" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-file-iterator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-text-template" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-timer" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-token-stream" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/phpunit" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/psr/log" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/psy/psysh" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/ramsey/uuid" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/comparator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/diff" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/environment" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/exporter" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/global-state" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/object-enumerator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/recursion-context" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/resource-operations" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/version" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/swiftmailer/swiftmailer" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/console" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/css-selector" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/debug" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/event-dispatcher" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/finder" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/http-foundation" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/http-kernel" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/polyfill-mbstring" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/polyfill-php70" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/process" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/routing" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/translation" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/var-dumper" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/yaml" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/vlucas/phpdotenv" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/webmozart/assert" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://F:/xampp/htdocs/test1/vendor/composer" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/doctrine/inflector" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/doctrine/instantiator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/erusev/parsedown" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/fzaninotto/faker" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/hamcrest/hamcrest-php" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/jakub-onderka/php-console-color" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/laravel/framework" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/laravel/tinker" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/league/flysystem" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/mockery/mockery" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/monolog/monolog" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/mtdowling/cron-expression" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/myclabs/deep-copy" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/nesbot/carbon" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/nikic/php-parser" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/paragonie/random_compat" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpdocumentor/reflection-common" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpdocumentor/type-resolver" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpspec/prophecy" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-code-coverage" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-file-iterator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-text-template" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-timer" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/php-token-stream" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/phpunit" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/psr/log" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/psy/psysh" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/ramsey/uuid" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/comparator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/diff" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/environment" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/exporter" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/global-state" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/object-enumerator" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/recursion-context" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/resource-operations" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/sebastian/version" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/swiftmailer/swiftmailer" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/console" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/css-selector" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/debug" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/event-dispatcher" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/finder" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/http-foundation" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/http-kernel" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/polyfill-mbstring" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/polyfill-php70" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/process" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/routing" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/translation" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/var-dumper" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/symfony/yaml" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/vlucas/phpdotenv" />
+          <root url="file://F:/xampp/htdocs/test1/vendor/webmozart/assert" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://F:/xampp/htdocs/test1/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://F:/xampp/htdocs/test1/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
