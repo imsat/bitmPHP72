@@ -1,0 +1,42 @@
+section{
+    margin-top:100px;
+    margin-down:100px;
+}
+.profile-img{
+    padding: 30px;
+}
+.contact-form {
+    margin-top: -70px;
+    margin-left: 250px;
+    padding: 50px 40px;
+    color: #555;
+    border: 5px solid #FaFaFa;
+    background: #fff;
+}
+.freelance{
+    background: url("images/emo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 7% 0;
+    color: white;
+}
+/*body{*/
+    /*background: #333;*/
+    /*color:#fff;*/
+/*}*/
+/*.navbar{*/
+    /*opacity: 0.8;*/
+/*}*/
+/*#home-section{*/
+    /*background: url('images/header-bg.jpg') no-repeat;*/
+    /*min-height: 700px;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+/*}*/
+
+/*.home-inner{*/
+    /*padding-top: 150px;*/
+    /*padding-bottom: 100px;*/
+
+/*}*/
