@@ -42,7 +42,7 @@ a2= sup tag use korte hobe
            event ki
            event attribute ki
            how to attach event- 3 method
-                  1method:
+                  1method:onclick="alert('Click Kno Korlen vai!!')";
                   2method:
                   3method:
 
