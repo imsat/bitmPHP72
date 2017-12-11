@@ -10,4 +10,29 @@ a2= sup tag use korte hobe
 //statement= single line statement
             conditional statement(if, if else, if else if, switch)
             Repeated statement(for, while, do while, for in)
+/*Array
+     special variable jar vitor multi data rakha jay.*/
 
+     /*Function
+         * ekta syntex, any kaj, specific job
+         1.Block of code
+         2.Particular Job
+         3.Re use
+         4.can not work himself,have to call
+         5.can return
+         function----2 part
+         1part:    Defination
+         2nd-part: Calling
+         function----2 type
+         1st type: Built in
+         2nd type: user define
+
+         function-Defination:
+
+         function demo(){
+         document.write(''Hello World);
+         }
+
+         function calling: demo();
+
+         * */
