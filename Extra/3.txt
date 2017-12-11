@@ -36,3 +36,14 @@ a2= sup tag use korte hobe
          function calling: demo();
 
          * */
+         /*Event
+           clint/user/visitor mouse er kurcor dia ja kisu korbe sob e event
+           clint er sathe commition hosse event er throw te
+           event ki
+           event attribute ki
+           how to attach event- 3 method
+                  1method:
+                  2method:
+                  3method:
+
+         */
