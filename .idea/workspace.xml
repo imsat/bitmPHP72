@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ebe499-4323-43cc-a514-38d12226d292" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/day-11/calculator/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/day-12/index.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php72.iml" afterPath="$PROJECT_DIR$/.idea/php72.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-grid.css" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-grid.css.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-grid.min.css" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-grid.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-reboot.css" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-reboot.css.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-reboot.min.css" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/day-12/css/bootstrap-reboot.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap.css" afterPath="$PROJECT_DIR$/day-12/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/day-12/css/bootstrap.css.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/day-12/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/day-12/css/bootstrap.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/index.html" afterPath="$PROJECT_DIR$/day-11/calculator/index.html" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.bundle.js" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.bundle.js.map" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.bundle.js.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.bundle.min.js" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.bundle.min.js.map" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.bundle.min.js.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.js" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.js" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.js.map" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.js.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.min.js" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/bootstrap.min.js.map" afterPath="$PROJECT_DIR$/day-12/js/bootstrap.min.js.map" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/day-12/js/jquery-3.2.1.js" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/popper.js" afterPath="$PROJECT_DIR$/day-12/js/popper.js" />
-      <change beforePath="$PROJECT_DIR$/day-11/calculator/js/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day-12/index.html" afterPath="$PROJECT_DIR$/day-12/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day-11/calculator/index.html">
+        <entry file="file://$PROJECT_DIR$/day-12/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -78,10 +49,10 @@
         <option value="$PROJECT_DIR$/Extra/3.txt" />
         <option value="$PROJECT_DIR$/day-11/full-name.html" />
         <option value="$PROJECT_DIR$/day-11/js/script.js" />
-        <option value="$PROJECT_DIR$/day-12/index.html" />
         <option value="$PROJECT_DIR$/day-11/calculator/js/script.js" />
         <option value="$PROJECT_DIR$/day-11/calculator/index.html" />
         <option value="$PROJECT_DIR$/day-11/calculator/script.js" />
+        <option value="$PROJECT_DIR$/day-12/index.html" />
       </list>
     </option>
   </component>
@@ -119,17 +90,6 @@
             <path>
               <item name="bitmPHP72" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitmPHP72" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bitmPHP72" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitmPHP72" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="day-11" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bitmPHP72" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitmPHP72" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="day-11" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="calculator" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bitmPHP72" type="b2602c69:ProjectViewProjectNode" />
@@ -242,16 +202,15 @@
       <option name="presentableId" value="Default" />
       <updated>1512981999984</updated>
       <workItem from="1512982001757" duration="8229000" />
-      <workItem from="1513539563121" duration="2010000" />
+      <workItem from="1513539563121" duration="3141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10239000" />
+    <option name="totallyTimeSpent" value="11370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14757709" sideWeight="0.59621453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -354,14 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day-12/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day-11/calculator/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -372,8 +323,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day-11/calculator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
