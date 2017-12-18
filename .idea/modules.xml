@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://F:/bitmPHP72/.idea/bitmPHP72.iml" filepath="F:/bitmPHP72/.idea/bitmPHP72.iml" />
+      <module fileurl="file://F:/project/project-html/day-11/.idea/day-11.iml" filepath="F:/project/project-html/day-11/.idea/day-11.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/php72.iml" filepath="$PROJECT_DIR$/.idea/php72.iml" />
     </modules>
   </component>
