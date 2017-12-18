@@ -40,3 +40,8 @@ $('#h1').click(function(){
 
     });
 });
+$('#submitBtn').click(function () {
+    var firstName = $('#firstName').val();
+    alert(firstName);
+
+})
