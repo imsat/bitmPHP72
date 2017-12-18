@@ -40,12 +40,26 @@ $('#h1').click(function(){
 
     });
 });
+// $('#submitBtn').click(function () {
+//     var firstName = $('#firstName').val();
+//     var lasttName = $('#lastName').val();
+//
+//     var fullName = firstName+' '+lasttName;
+//         $('#fullName').val(fullName);
+//
+//
+// })
 $('#submitBtn').click(function () {
     var firstName = $('#firstName').val();
     var lasttName = $('#lastName').val();
 
     var fullName = firstName+' '+lasttName;
-        $('#fullName').val(fullName);
+        $('#fullName').html(fullName);
 
 
-})
+});
+
+$('#img3').click(function () {
+    var imgUrl = $(this).attr('src');
+    $('#mainImage').attr('src',imgUrl);
+});

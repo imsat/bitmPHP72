@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://F:/bitmPHP72/.idea/bitmPHP72.iml" filepath="F:/bitmPHP72/.idea/bitmPHP72.iml" />
       <module fileurl="file://F:/project/project-html/day-11/.idea/day-11.iml" filepath="F:/project/project-html/day-11/.idea/day-11.iml" />
-=======
->>>>>>> 2109267c55cc5e4db5a5fa75d46de87ba84855de
       <module fileurl="file://$PROJECT_DIR$/.idea/php72.iml" filepath="$PROJECT_DIR$/.idea/php72.iml" />
     </modules>
   </component>
