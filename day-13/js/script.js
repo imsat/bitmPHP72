@@ -23,5 +23,20 @@ btnElement.onclick = function(){
 // headingElement.onclick = function () {
 //     headingElement.style.color = 'red';
 // }
+//
+// $('#h1').click(function(){
+//     $('#h1').css({
+//         'color': 'red',
+//         'font-size': '30px',
+//         'background-color': 'black'
+//
+//     });
+// });
+$('#h1').click(function(){
+    $(this).css({
+        'color': 'red',
+        'font-size': '30px',
+        'background-color': 'black'
 
-$('#h1').click(css('color', 'red'));
+    });
+});
