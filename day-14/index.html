@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day-14</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+<body>
+<form action="index.html" method="post" id="testForm" class="" style="margin-left:38%;">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" placeholder="Your First Name"  name="first_name" id="firstName" class="form-control"/>
+                <span id="firstNameError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="last_name" placeholder="Your Last Name" id="lastName" class="form-control"/>
+                <span id="lastNameError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Your Email Address" name="email_address" id="email" class="form-control"/>
+                <span id="emailError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Password" name="password" id="password" class="form-control"/>
+                <input type="checkbox" id="showPassword"/> Show Password
+
+                <span id="passwordError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" min="11" placeholder="Enter Password" name="confirm_password" id="confirmPassword" class="form-control"/>
+                <span id="confirmPasswordError" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Gender</label><br>
+                <label><input type="radio" name="gender" value="male"/>Male</label>
+                <label><input type="radio" name="gender" value="female"/>Female</label>
+                <span id="genderError" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="districtName">District name</label>
+                <select id="districtName" name="district_name" class="form-control">
+                    <option value=" ">---Select District Name---</option>
+                    <option value="nowakhali">Nowakhali</option>
+                    <option value="barisal">Barisal</option>
+                    <option value="dhaka">Dhaka</option>
+                    <option value="server">Sarver</option>
+                    <option value="khulna">Khulna</option>
+                </select>
+                <span id="districtNameError" style="color:red;"></span>
+            </div>
+
+            <!--<div class="form-group">-->
+                <!--<label for="agree" class="form-check-label">-->
+                    <!--<input type="checkbox" name="agree" id="agree" class="form-check-input"/>I Agree with all terms & Condition-->
+                <!--</label>-->
+
+            <!--</div>-->
+            <div class="form-group">
+                <button type="submit" class="btn btn-outline-primary btn-block" id="btn">Submit</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</form>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
