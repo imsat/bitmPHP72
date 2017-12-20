@@ -105,9 +105,9 @@ $('#confirmPassword').keyup(function () {
     checkConfirmPassword();
 });
 
-$('#btn').click(function () {
-    checkGender();
-});
+// $('#btn').click(function () {
+//     checkGender();
+// });
 
 $('#districtName').change(function () {
     checkDistrictName();
