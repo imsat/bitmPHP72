@@ -5,22 +5,34 @@
     <title>Image-Gallary</title>
 </head>
 <body>
-<img src="images/slide1.jpg" alt="" id="mainImage" style="height: 300px; width: 400px;">
+<img src="images/slide1.jpg" alt="" id="mainImage" style="height: 300px; width: 392px;"/>
 <div>
-    <img id="img1" src="images/slide1.jpg" alt="" height="80px" width="95px">
-    <img id="img2" src="images/slide2.jpg" alt="" height="80px" width="95px">
-    <img id="img3" src="images/slide3.jpg" alt="" height="80px" width="95px">
-    <img id="img4" src="images/slide4.jpg" alt="" height="80px" width="95px">
+    <img id="img1" src="images/slide1.jpg" alt="" height="80" width="95">
+    <img id="img2" src="images/slide2.jpg" alt="" height="80" width="95">
+    <img id="img3" src="images/slide3.jpg" alt="" height="80" width="95">
+    <img id="img4" src="images/slide4.jpg" alt="" height="80" width="95">
 
 </div>
 
-<!--<script>-->
-    <!--$('#img1').click(function () {-->
-        <!--var imgUrl = $('#img1').attr('src');-->
-        <!--$('#mainImage').attr('src', imgUrl);-->
-    <!--});-->
-<!--</script>-->
 <script src="js/jquery-3.2.1.js"></script>
-<script src="js/script.js"></script>
+<script>
+    $('#img1').click(function(){
+        var imgUrl = $(this).attr('src');
+        $('#mainImage').attr('src',imgUrl);
+    });
+    $('#img2').click(function(){
+        var imgUrl = $(this).attr('src');
+        $('#mainImage').attr('src',imgUrl);
+    });
+    $('#img3').click(function(){
+        var imgUrl = $(this).attr('src');
+        $('#mainImage').attr('src',imgUrl);
+    });
+    $('#img4').click(function(){
+        var imgUrl = $(this).attr('src');
+        $('#mainImage').attr('src',imgUrl);
+    });
+
+</script>
 </body>
 </html>

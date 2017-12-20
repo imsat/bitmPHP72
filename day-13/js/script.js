@@ -59,7 +59,15 @@ $('#submitBtn').click(function () {
 
 });
 
-$('#img3').click(function () {
-    var imgUrl = $(this).attr('src');
-    $('#mainImage').attr('src',imgUrl);
+// $('#img2').click(function () {
+//     var imgUrl = $('#img2').attr('src');
+//     $('#mainImage').attr('src',imgUrl);
+// });
+$('#img2').click(function () {
+    var imgUrl = $('#img2').attr('src');
+    alert(imgUrl);
+});
+$('#img2').click(function(){
+    var imgUrl = $('#img2').attr('src');
+    alert('imgUrl');
 });
