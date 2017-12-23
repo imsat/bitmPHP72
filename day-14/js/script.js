@@ -52,11 +52,14 @@ function checkConfirmPassword() {
         return false;
     }
 };
+
 $('#showPassword').click(function () {
     if(this.checked){
         $('#password').attr('type', 'text');
-    }else{
+        $('#confirmPassword').attr('type','text');
+    } else{
         $('#password').attr('type', 'password');
+        $('#confirmPassword').attr('type','password');
     }
 });
 
@@ -72,6 +75,7 @@ function checkGender() {
     $('#genderError').text('Please select Gender info');
 }       return false;
     };
+
 function checkDistrictName() {
     var districtNameValue = $('#districtName').val();
     if(districtNameValue == ' '){
@@ -104,10 +108,6 @@ $('#password').keyup(function () {
 $('#confirmPassword').keyup(function () {
     checkConfirmPassword();
 });
-
-// $('#btn').click(function () {
-//     checkGender();
-// });
 
 $('#districtName').change(function () {
     checkDistrictName();

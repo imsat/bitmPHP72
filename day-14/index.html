@@ -10,10 +10,11 @@
 
 
 
-<form action="index.html" method="post" id="testForm" class="" style="margin-left:38%;">
+<form action="index.html" method="post" id="testForm" class="">
 <div class="container">
     <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
             <div class="form-group">
                 <label for="firstName">First Name</label>
                 <input type="text" placeholder="Your First Name"  name="first_name" id="firstName" class="form-control"/>
@@ -32,17 +33,16 @@
             <div class="form-group">
                 <label for="password">Password</label>
                 <input type="password" placeholder="Enter Password" name="password" id="password" class="form-control"/>
-                <input type="checkbox" id="showPassword"/> Show Password
-
+                <label for="showPassword"><input type="checkbox" id="showPassword"/> Show Password</label>
                 <span id="passwordError" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label for="confirmPassword">Confirm Password</label>
-                <input type="password" min="11" placeholder="Enter Password" name="confirm_password" id="confirmPassword" class="form-control"/>
+                <input type="password" placeholder="Enter Password" name="confirm_password" id="confirmPassword" class="form-control"/>
                 <span id="confirmPasswordError" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label for="">Gender</label><br>
+                <label>Gender</label><br>
                 <label><input type="radio" name="gender" value="male"/>Male</label>
                 <label><input type="radio" name="gender" value="female"/>Female</label>
                 <span id="genderError" class="text-danger"></span>
@@ -58,7 +58,7 @@
                     <option value="server">Sarver</option>
                     <option value="khulna">Khulna</option>
                 </select>
-                <span id="districtNameError" style="color:red;"></span>
+                <span id="districtNameError" class="text-danger"></span>
             </div>
 
             <!--<div class="form-group">-->
@@ -71,7 +71,7 @@
                 <button type="submit" class="btn btn-outline-primary btn-block" id="btn">Submit</button>
             </div>
         </div>
-
+        <div class="col-sm-4"></div>
     </div>
 </div>
 </form>
