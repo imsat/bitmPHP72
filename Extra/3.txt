@@ -49,6 +49,31 @@ a2= sup tag use korte hobe
          */
 http://www.webcoachbd.com/
 ##PHP##
+Rasmus Leadorf -- Inventor(1994),1995-june e launch kore (Personal home page) hypertex preeprocessor lenguage
+1996--PHP-2
+1998--PHP-3(Not object oriented)
+2000-PHP-4...1...2...
+2004-PHP-5.1. 5.2.... 5.6(Included OOP )==most popular
+2015-PHP-7.1, 7.2, 4.3(december)
+2017-PHP7.0(november-30)
+comiper-assistent -perser check kore error
+
+raw...
+framework....
+50 pacakege +
+#php#==start
+7 syntex know
+Syntex
+variable
+operator
+statement
+array
+function
+class
+
+#Syntex
+.php
+<?php .... ?>
 
 
 
