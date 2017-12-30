@@ -1,7 +1,8 @@
 <?php
-$firstName =$_POST['first_name'];
-$lastName =$_POST['last_name'];
-$fullName = $firstName.' '.$lastName;
+require_once 'fullName.php';
+$fullName = new FullName;
+
+$fullName->makeFullName($_POST);
 
 ?>
 <!DOCTYPE html>
@@ -27,7 +28,7 @@ $fullName = $firstName.' '.$lastName;
                 </div>
                 <div class="form-group">
                     <label for="email">Full Name</label>
-                    <input type="text" placeholder="Full Name" name="full_name" id="full_name" value="<?php echo $fullName;?>" class="form-control"/>
+                    <input type="text" placeholder="Full Name" name="full_name" id="full_name"  class="form-control"/>
                 </div>
 
                 <div class="form-group">
