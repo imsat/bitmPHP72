@@ -74,7 +74,26 @@ class
 #Syntex
 .php
 <?php .... ?>
+$$$$--ARRAY---$$$$
+3 types of array acroding to php
+1.Numaric Array;(Array er index Number or sonkha hole take Numaric array bole)
+2.Associative array;(Array er index String hole take Numaric array bole)
+3.Multi-dimentional array; (zokhon kno array index 1 er odhik hoy tokhon take                                          multi-dimentional array bole [1st index ke row and 2nd index ke coloumm bole])
 
+PHP te mott 8 ta supper global_array ase, predefiend array($_POST, $_GET, $_COOKIE, $_SERVER, $_SESSION, $_FILES, $_REQUEST, $_ENV)--kaj(Big Data nia kaj kore)
+
+//FUNCTION//
+2 part- Calling and Deffination
+
+//OOP//
+its not a programing Language
+its onlay a model or some set of rules;
+*-class-kno ekta jinis er bornona thakbe[Attribute and Behabior Thakbe] ==class er vitor kivabe property and method declare korte hoy==
+--Class er nam always capital latter hobe
+*Attribute means information and something/Property/detail == jar vitor kno jinis er bornona thakbe- variable gulaie e property
+*kaj-Behabior-oi jinis ta ki ki korte pare/Method/Function
+*object-kolom,-real thing/exixtance ase seta holo object
+--permission of a class is object,real things
 
 
 
