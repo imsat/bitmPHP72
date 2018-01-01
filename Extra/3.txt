@@ -94,6 +94,15 @@ its onlay a model or some set of rules;
 *kaj-Behabior-oi jinis ta ki ki korte pare/Method/Function
 *object-kolom,-real thing/exixtance ase seta holo object
 --permission of a class is object,real things
+--ekta class theke r ekta class er method r property access ke inheritance bole
+--encapsulation protected kora
+--polimorphysom -access and modify kora jay
+
+
+
+--Composer--
+
+namespace--ekta syntex r kaj holo vartual direcectory make kore
 
 
 

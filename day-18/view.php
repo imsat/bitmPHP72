@@ -3,7 +3,7 @@
 //$test = new Test('Alomgir');
 //
 //$test->one();
-
+$res = '';
 if(isset($_POST['btn'])){
 require_once 'Test.php';
 $example = new Example();
