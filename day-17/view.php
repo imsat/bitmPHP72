@@ -1,9 +1,12 @@
 <?php
 require_once 'fullName.php';
 $fullName = new FullName;
+$result = [];
+if (isset($_POST['btn'])) {
 
-$fullName->makeFullName($_POST);
 
+    $result = $fullName->makeFullName($_POST);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,11 +31,11 @@ $fullName->makeFullName($_POST);
                 </div>
                 <div class="form-group">
                     <label for="email">Full Name</label>
-                    <input type="text" placeholder="Full Name" name="full_name" id="full_name"  class="form-control"/>
+                    <input type="text" placeholder="Full Name" value="<?php echo $result['full_name']; ?>" name="full_name" id="full_name"  class="form-control"/>
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-outline-primary btn-block" id="btn">Submit</button>
+                    <button type="submit" name="btn" class="btn btn-outline-primary btn-block" id="btn">Submit</button>
                 </div>
             </div>
             <div class="col-sm-4"></div>
