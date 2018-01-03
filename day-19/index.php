@@ -1,11 +1,11 @@
 <?php
     require_once 'vendor/autoload.php';
     use App\classes\Student;
-
+    $insert = '';
     if(isset($_POST['btn'])){
     //    $student = new App\classes\Student();
 //        $student->saveStudentInfo($_POST);
-        Student::saveStudentInfo($_POST);
+        $insert = Student::saveStudentInfo($_POST);
     }
 ?>
 
@@ -19,6 +19,7 @@
     <title>Document</title>
 </head>
 <body>
+<h1 style="color: #28a745;"><?php echo $insert; ?></h1>
 <form action="" method="post">
     <table>
         <tr>
