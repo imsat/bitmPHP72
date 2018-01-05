@@ -105,8 +105,15 @@ its onlay a model or some set of rules;
 namespace--ekta syntex r kaj holo vartual direcectory make kore
 
 
+composer
+ //1st App is for namespace and 2nd app is for folder/class er root dicettory
 
-
+ Database:
+ MY SQL
+ MS SQL
+ Oracle
+ --design group--
+ Web Design Batch-64 (DHK)
 
 
 
