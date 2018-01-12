@@ -19,7 +19,7 @@ class Login
            $_SESSION['name'] = $user['name'];
             header('Location: dashboard.php');
        }else{
-           $message = "Please enter valid user email and password";
+           $message = "Envalid user email and password!!!";
            return $message;
        }
     }else{

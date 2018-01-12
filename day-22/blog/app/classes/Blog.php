@@ -1,47 +1,65 @@
 <?php
 
 namespace App\classes;
-
+use App\classes\Database;
 
 class Blog{
-    public function savePostInfo($data){
-        $link = mysqli_connect('localhost', 'root', '', 'db_blog');
-        $sql = "INSERT INTO blogs (categoryName, title, authorName, blogDescription, status) VALUES ('$data[categoryName]', '$data[title]', '$data[authorName]', '$data[blogDescription]', '$data[status]')";
-        if(mysqli_query($link, $sql)){
-            $insert = 'Post Created Successfully';
-            return $insert;
-        }else{
-            die ('OPPS!!! Go Back<-<-<-'.mysqli_error($link));
+    public function createblog(){
+        $sql = "SELECT * FROM categories WHERE publicationStatus=1";
+        if(mysqli_query(Database::dbConnection(), $sql)){
+            $categoryName = mysqli_query(Database::dbConnection(), $sql);
+            return $categoryName;
         }
     }
-    public function getAllPostInfo(){
-        $link = mysqli_connect('localhost', 'root', '', 'db_blog');
+    public function saveBlogInfo($data){
+        $categoryName = $data['categoryName'];
+        $blogTitle = $data['blogTitle'];
+        $shortDescription = $data['shortDescription'];
+        $longDescription = $data['longDescription'];
+        $publicationStatus = $data['publicationStatus'];
+        $sql = "INSERT INTO blogs (categoryName, blogTitle, shortDescription, longDescription, publicationStatus) VALUES ('$data[categoryName]', '$data[blogTitle]', '$data[shortDescription]', '$data[longDescription]', '$data[publicationStatus]')";
+        if(mysqli_query(Database::dbConnection(), $sql)){
+            $insertBlog = 'Blog Info Created Successfully';
+            return $insertBlog;
+        }else{
+            die('OPPS!!!'.mysqli_error(Database::dbConnection(), $sql));
+        }
+    }
+    public function getAllBlogInfo(){
         $sql = "SELECT * FROM blogs";
-        if(mysqli_query($link, $sql)){
-            $queryResult = mysqli_query($link, $sql);
-            return $queryResult;
+        if(mysqli_query(Database::dbConnection(), $sql)){
+            $blogResult = (mysqli_query(Database::dbConnection(),$sql));
+            return $blogResult;
         }else{
-            die ('OPPS!!! Go Back<-<-<-'.mysqli_error($link));
+            die('OPPS!!!'.mysqli_error(Database::dbConnection()));
         }
     }
-    public function getPostById($id){
-        $link = mysqli_connect('localhost', 'root', '', 'db_blog');
-        $sql = "SELECT * FROM blogs WHERE id = $id";
-        if(mysqli_query($link, $sql)){
-            $queryResult = mysqli_query($link, $sql);
-            return $queryResult;
+    public function viewAllBlogInfo($id){
+        $sql = "SELECT * FROM blogs where id = $id";
+        if(mysqli_query(Database::dbConnection(), $sql)){
+            $blogResult = (mysqli_query(Database::dbConnection(),$sql));
+            return $blogResult;
         }else{
-            die ('OPPS!!! Go Back<-<-<-'.mysqli_error($link));
+            die('OPPS!!!'.mysqli_error(Database::dbConnection()));
         }
     }
-    public function updatePostInfo($data, $id){
-        $link = mysqli_connect('localhost', 'root', '', 'db_blog');
-        $sql = "update  blogs SET categoryName = '$data[categoryName]',title= '$data[title]',authorName = '$data[authorName]',blogDescription = '$data[blogDescription]',status = '$data[status]' WHERE id = '$id'";
+    public function updateBlogInfo($data, $id){
+        $sql = "update  blogs SET categoryName = '$data[categoryName]',blogTitle = '$data[blogTitle]', shortDescription = '$data[shortDescription]', longDescription = '$data[longDescription]', publicationStatus = '$data[publicationStatus]' WHERE id = '$id'";
+        if(mysqli_query(Database::dbConnection(), $sql)){
 
-        if(mysqli_query($link, $sql)){
-            header('Location: viewPosts.php');
+            header('Location: manageBlog.php');
+
         }else{
-            die ('OPPS!!! Go Back<-<-<-'.mysqli_error($link));
+            die('OPPS!!!'.mysqli_error(Database::dbConnection()));
+        }
+    }
+    public function deleteBlogInfo($id){
+        $sql = "delete FROM blogs WHERE id = '$id'";
+        if(mysqli_query(Database::dbConnection(),$sql)){
+            $deleteBlog = 'Blog Info Delete Successfully';
+            return $deleteBlog;
+        }else{
+            die('OPPS!!!'.mysqli_error(Database::dbConnection()));
         }
     }
 
