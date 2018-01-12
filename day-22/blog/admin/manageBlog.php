@@ -15,6 +15,7 @@ $blogResult = Blog::getAllBlogInfo();
         <div class="col-sm-10 mx-auto">
             <div class="card">
                 <div class="card-body">
+                    <h4 class="text-success text-center"><?php echo $deleteBlog; ?><br></h4>
                     <table class="table">
                         <thead class="thead-dark">
                         <tr>

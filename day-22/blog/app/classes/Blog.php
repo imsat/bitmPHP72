@@ -22,7 +22,7 @@ class Blog{
             $insertBlog = 'Blog Info Created Successfully';
             return $insertBlog;
         }else{
-            die('OPPS!!!'.mysqli_error(Database::dbConnection(), $sql));
+            die('OPPS!!!'.mysqli_error(Database::dbConnection()));
         }
     }
     public function getAllBlogInfo(){
