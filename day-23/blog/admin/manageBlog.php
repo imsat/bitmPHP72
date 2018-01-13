@@ -34,7 +34,7 @@ $blogResult = Blog::getAllBlogInfo();
                         <tbody>
                         <tr>
                             <th scope="row"><?php echo $i; ?></th>
-                            <td><?php echo $result['categoryName']; ?></td>
+                            <td><?php echo $result['categoryId']; ?></td>
                             <td><?php echo $result['blogTitle']; ?></td>
                             <td>
                                 <?php if($result['publicationStatus'] == 1){

@@ -3,7 +3,9 @@ namespace App\classes;
 use App\classes\Blog;
 include 'includes/header.php';
 
-$categoryName = Blog::createblog();
+//$categoryName = Blog::createblog();
+
+$queryResult = Blog::getAllPublishedCategory();
 
 $insertBlog = '';
 if(isset($_POST['btn'])){
@@ -21,10 +23,10 @@ if(isset($_POST['btn'])){
                             <label for="inputPassword3" class="col-sm-3 col-form-label">Category Name</label>
                                 <div class="col-sm-9">
 
-                                <select class="form-control" name="categoryName">
+                                <select class="form-control" name="categoryId">
                                     <option>----Select Category Name---</option>
-                        <?php while($result = mysqli_fetch_assoc($categoryName)){?>
-                                    <option value="<?php echo $result['categoryName']; ?>"><?php echo $result['categoryName'];  ?></option>
+                        <?php while($result = mysqli_fetch_assoc($queryResult)){?>
+                                    <option value="<?php echo $result['id']; ?>"><?php echo $result['categoryName'];  ?></option>
                                     <?php } ?>
                                 </select>
 
