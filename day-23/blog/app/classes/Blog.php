@@ -21,7 +21,7 @@ class Blog{
 //    }
     public function saveBlogInfo($data){
         $fileName =  $_FILES['blogImage']['name'];
-        $directory = '../asset/images/';
+        $directory = '../assets/images/';
         $imageUrl = $directory.$fileName;
         $fileSize = $_FILES['blogImage']['size'];
         $fileType = pathinfo($_FILES['blogImage']['name'], PATHINFO_EXTENSION);
@@ -32,7 +32,7 @@ class Blog{
                 die("Image allready Exists. Please...!!!");
             }else{
 
-                if($fileSize > 50000){
+                if($fileSize > 500000000){
                     die("file size must be 5 MB!!!");
                 }else{
 
@@ -40,7 +40,7 @@ class Blog{
                         die("file must be JPG or Png");
                     }else{
                         move_uploaded_file($_FILES['blogImage']['tmp_name'], $imageUrl);
-                        $sql = "INSERT INTO blogs (categoryId, blogTitle, shortDescription, longDescription, imageFile, publicationStatus) VALUES ('$data[categoryId]', '$data[blogTitle]', '$data[shortDescription]', '$data[longDescription]', '$data[$imageUrl]', '$data[publicationStatus]')";
+                        $sql = "INSERT INTO blogs (categoryId, blogTitle, shortDescription, longDescription, blogImage, publicationStatus) VALUES ('$data[categoryId]', '$data[blogTitle]', '$data[shortDescription]', '$data[longDescription]', '$imageUrl', '$data[publicationStatus]')";
                         if(mysqli_query(Database::dbConnection(), $sql)){
                             $insertBlog = 'Blog Info Created Successfully';
                             return $insertBlog;
@@ -77,13 +77,52 @@ class Blog{
         }
     }
     public function updateBlogInfo($data, $id){
-        $sql = "update  blogs SET categoryName = '$data[categoryName]',blogTitle = '$data[blogTitle]', shortDescription = '$data[shortDescription]', longDescription = '$data[longDescription]', publicationStatus = '$data[publicationStatus]' WHERE id = '$id'";
-        if(mysqli_query(Database::dbConnection(), $sql)){
+        if($_FILES['blogImage']['name']){
+            $fileName =  $_FILES['blogImage']['name'];
+            $directory = '../assets/images/';
+            $imageUrl = $directory.$fileName;
+            $fileSize = $_FILES['blogImage']['size'];
+            $fileType = pathinfo($_FILES['blogImage']['name'], PATHINFO_EXTENSION);
+            $check = getimagesize($_FILES['blogImage']['tmp_name']);
+            if($check){
 
-            header('Location: manageBlog.php');
+                if(file_exists($imageUrl)){
+                    die("Image allready Exists. Please...!!!");
+                }else{
+
+                    if($fileSize > 500000000){
+                        die("file size must be 5 MB!!!");
+                    }else{
+
+                        if($fileType != 'jpg' && $fileType != 'png'){
+                            die("file must be JPG or Png");
+                        }else{
+                            move_uploaded_file($_FILES['blogImage']['tmp_name'], $imageUrl);
+                            $sql = "update  blogs SET categoryId = '$data[categoryId]',blogTitle = '$data[blogTitle]', shortDescription = '$data[shortDescription]', longDescription = '$data[longDescription]', blogImage = '$imageUrl', publicationStatus = '$data[publicationStatus]' WHERE id = '$id'";
+                            if(mysqli_query(Database::dbConnection(), $sql)){
+                                header('Location: manageBlog.php');
+                            }else{
+                                die('Query Problem'.mysqli_error(Database::dbConnection()));
+                            }
+
+                        }
+                    }
+                }
+
+            }else{
+                die("Please select an image file. Thanks...!!!");
+            }
+
 
         }else{
-            die('OPPS!!!'.mysqli_error(Database::dbConnection()));
+            $sql = "update  blogs SET categoryId = '$data[categoryId]',blogTitle = '$data[blogTitle]', shortDescription = '$data[shortDescription]', longDescription = '$data[longDescription]', publicationStatus = '$data[publicationStatus]' WHERE id = '$id'";
+            if(mysqli_query(Database::dbConnection(), $sql)){
+
+                header('Location: manageBlog.php');
+
+            }else{
+                die('Query Problem!!!'.mysqli_error(Database::dbConnection()));
+            }
         }
     }
     public function deleteBlogInfo($id){

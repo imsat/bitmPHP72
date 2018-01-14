@@ -14,11 +14,11 @@ if(isset($_POST['btn'])){
 ?>
 <div class="container" style="margin-top: 20px;">
     <div class="row">
-        <div class="col-sm-10 mx-auto">
+        <div class="col-sm-12 mx-auto">
             <div class="card">
                 <div class="card-body">
                     <h4 class="text-success text-center"><?php echo $insertBlog; ?><br></h4>
-                    <form action="" method="post">
+                    <form action="" method="post" enctype="multipart/form-data">
                         <div class="form-group row">
                             <label for="inputPassword3" class="col-sm-3 col-form-label">Category Name</label>
                                 <div class="col-sm-9">

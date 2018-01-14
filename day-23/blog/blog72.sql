@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 12, 2018 at 11:24 PM
+-- Generation Time: Jan 14, 2018 at 08:37 PM
 -- Server version: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -28,22 +28,23 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `blogs` (
   `id` int(11) NOT NULL,
-  `categoryName` varchar(255) COLLATE utf8_croatian_ci NOT NULL,
+  `categoryId` int(11) NOT NULL,
   `blogTitle` varchar(255) COLLATE utf8_croatian_ci NOT NULL,
   `shortDescription` text COLLATE utf8_croatian_ci NOT NULL,
   `longDescription` text COLLATE utf8_croatian_ci NOT NULL,
+  `blogImage` text COLLATE utf8_croatian_ci NOT NULL,
   `publicationStatus` tinyint(4) NOT NULL DEFAULT '1'
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COLLATE=utf8_croatian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8 COLLATE=utf8_croatian_ci;
 
 --
 -- Dumping data for table `blogs`
 --
 
-INSERT INTO `blogs` (`id`, `categoryName`, `blogTitle`, `shortDescription`, `longDescription`, `publicationStatus`) VALUES
-(13, 'Java', 'Shamur - Let The Music Play', 'Let The Music PlayLet The Music Play', '<h1>Let The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music PlayLet The Music Play</h1>', 0),
-(14, 'PHP', ' 	Let The Music Play', ' 	Let The Music Play 	Let The Music Play', '<h1>Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play Let The Music Play</h1>', 1),
-(15, 'Html', 'Leke Pehla Pehla Pyar', 'Leke Pehla Pehla PyarLeke Pehla Pehla Pyar', '<h1>Leke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla PyarLeke Pehla Pehla Pyar</h1>', 1),
-(16, 'Python', 'Ek pardesi mera dil le geya', 'Ek pardesi mera dil le geyaEk pardesi mera dil le geya', '<h1>Ek pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geyaEk pardesi mera dil le geya</h1>', 1);
+INSERT INTO `blogs` (`id`, `categoryId`, `blogTitle`, `shortDescription`, `longDescription`, `blogImage`, `publicationStatus`) VALUES
+(17, 17, 'Short Description', 'Short DescriptionShort DescriptionShort DescriptionShort DescriptionShort Description', '<p>Short DescriptionShort DescriptionShort DescriptionShort Description</p>', '../assets/images/c81a0e5eb7.jpg', 1),
+(18, 18, '	Shamur - Let The Music Play', ' Let The Music Play Let The Music Play', '<h1>&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play&nbsp;Let The Music Play</h1>', '../assets/images/fb0266c9d5.jpg', 1),
+(19, 0, 'à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ ', 'à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡', '<h1><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif; font-size: 24px;">à¦¶à¦¾à¦¨à§à¦¤à¦¨à¦¾ à¦ªà§‡à¦¤à§‡à¦“ à¦¬à¦¿à¦°à¦•à§à¦¤à¦¿ à¦²à¦¾à¦—à§‡</span></h1>', '../assets/images/322e59cb27.png', 1),
+(20, 11, '2 Different Sides Of The World!', '2 Different Sides Of The World!2 Different Sides Of The World!', '<h1><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span><span style="color: #1d2129; font-family: Helvetica, Arial, sans-serif;">2 Different Sides Of The World!</span></h1>', '../assets/images/9d069e4e0b.png', 1);
 
 -- --------------------------------------------------------
 
@@ -56,7 +57,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
   `categoryName` varchar(255) COLLATE utf8_croatian_ci NOT NULL,
   `categoryDescription` text COLLATE utf8_croatian_ci NOT NULL,
   `publicationStatus` tinyint(4) NOT NULL DEFAULT '1'
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COLLATE=utf8_croatian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COLLATE=utf8_croatian_ci;
 
 --
 -- Dumping data for table `categories`
@@ -121,12 +122,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `blogs`
 --
 ALTER TABLE `blogs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `users`
 --

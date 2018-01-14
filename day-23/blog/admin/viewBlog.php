@@ -8,7 +8,7 @@ $blogResult = Blog::viewAllBlogInfo($id );
 ?>
 <div class="container" style="margin-top: 20px;">
     <div class="row">
-        <div class="col-sm-10 mx-auto">
+        <div class="col-sm-12 mx-auto">
             <div class="card">
                 <div class="card-body">
                     <table class="table table-bordered table-hover">
@@ -22,8 +22,8 @@ $blogResult = Blog::viewAllBlogInfo($id );
                             <th><?php echo $i; ?></th>
                         </tr>
                         <tr>
-                            <th>Category Name</th>
-                            <th><?php echo $result['categoryName']; ?></th>
+                            <th>Category Id</th>
+                            <th><?php echo $result['categoryId']; ?></th>
                         </tr>
                         <tr>
                             <th>Blog TItle</th>
@@ -36,6 +36,10 @@ $blogResult = Blog::viewAllBlogInfo($id );
                         <tr>
                             <th>Long Description</th>
                             <th><?php echo $result['longDescription']; ?></th>
+                        </tr>
+                        <tr>
+                        <th>Image</th>
+                        <th><img src="<?php echo $result['blogImage']; ?>" alt="" style="height: 200px; width: 200px;"></th>
                         </tr>
                         <tr>
                             <th>Publication Statuss</th>

@@ -12,17 +12,17 @@ if(isset($_POST['btn'])){
 ?>
 <div class="container" style="margin-top: 20px;">
     <div class="row">
-        <div class="col-sm-10 mx-auto">
+        <div class="col-sm-12 mx-auto">
             <div class="card">
                 <div class="card-body">
 <!--                    <h4 class="text-success text-center">--><?php //echo $insertBlog; ?><!--<br></h4>-->
-                    <form action="" method="post" name="editBlogForm">
+                    <form action="" method="post" name="editBlogForm" enctype="multipart/form-data">
                         <div class="form-group row">
                             <label for="inputPassword3" class="col-sm-3 col-form-label">Category Name</label>
                             <div class="col-sm-9">
 
-                                <select class="form-control" name="categoryName">
-                                        <option value="<?php echo $blogResult['categoryName']; ?>"><?php echo $blogResult['categoryName']; ?></option>
+                                <select class="form-control" name="categoryId">
+                                        <option value="<?php echo $blogResult['id']; ?>"><?php echo $blogResult['categoryId']; ?></option>
                                 </select>
 
                             </div>
@@ -37,7 +37,7 @@ if(isset($_POST['btn'])){
                         <div class="form-group row">
                             <label for="shortDescription" class="col-sm-3 col-form-label">Short Description</label>
                             <div class="col-sm-9">
-                                <textarea name="shortDescription" placeholder="Short Description"  id="shortDescription" cols="70" rows="2"><?php echo $blogResult['shortDescription']; ?></textarea>
+                                <textarea name="shortDescription" placeholder="Short Description"  id="shortDescription" cols="100" rows="4"><?php echo $blogResult['shortDescription']; ?></textarea>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -50,6 +50,7 @@ if(isset($_POST['btn'])){
                             <label for="blogImage" class="col-sm-3 col-form-label">Blog Image</label>
                             <div class="col-sm-10">
                                 <input type="file" name="blogImage" accept="image/*">
+                                <img src="<?php echo $blogResult['blogImage']; ?>" alt="" style="height: 100px; width: 100px;">
 
                             </div>
                         </div>

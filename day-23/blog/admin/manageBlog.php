@@ -12,7 +12,7 @@ $blogResult = Blog::getAllBlogInfo();
 ?>
 <div class="container" style="margin-top: 20px;">
     <div class="row">
-        <div class="col-sm-10 mx-auto">
+        <div class="col-sm-12 mx-auto">
             <div class="card">
                 <div class="card-body">
                     <h4 class="text-success text-center"><?php echo $deleteBlog; ?><br></h4>
@@ -20,8 +20,9 @@ $blogResult = Blog::getAllBlogInfo();
                         <thead class="thead-dark">
                         <tr>
                             <th scope="col">Sl NO</th>
-                            <th scope="col">Category Name</th>
+                            <th scope="col">Category Id</th>
                             <th scope="col">Blog Title</th>
+                            <th scope="col">Blog Image</th>
                             <th scope="col">Publication Status</th>
                             <th scope="col">Action</th>
                         </tr>
@@ -36,6 +37,7 @@ $blogResult = Blog::getAllBlogInfo();
                             <th scope="row"><?php echo $i; ?></th>
                             <td><?php echo $result['categoryId']; ?></td>
                             <td><?php echo $result['blogTitle']; ?></td>
+                            <td><img src="<?php echo $result['blogImage']; ?>" alt="" style="height: 100px; width: 100px;"></td>
                             <td>
                                 <?php if($result['publicationStatus'] == 1){
                                     echo 'Published';
