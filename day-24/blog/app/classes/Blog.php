@@ -77,7 +77,14 @@ class Blog{
         }
     }
     public function updateBlogInfo($data, $id){
-        if($_FILES['blogImage']['name']){
+        $imageFile = $_FILES['blogImage']['name'];
+        if($imageFile){
+
+            $sql = "SELECT * FROM blogs WHERE id = $id";
+            $queryResult = mysqli_query(Database::dbConnection(),$sql);
+            $blogInfo =mysqli_fetch_assoc($queryResult);
+            unlink($blogInfo['blogInfo']);
+
             $fileName =  $_FILES['blogImage']['name'];
             $directory = '../assets/images/';
             $imageUrl = $directory.$fileName;

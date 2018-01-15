@@ -2,142 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba592595-e435-476a-ab6c-e2c41af32c29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/images/322e59cb27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/images/9d069e4e0b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/images/c81a0e5eb7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/images/fb0266c9d5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/help/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/addBlog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/addCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/dashboard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/editBlog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/editCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/includes/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/includes/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/manageBlog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/manageCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/admin/viewBlog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Blog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/css/heroic-features.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/jquery.tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/langs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/code/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/codesample/css/prism.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/codesample/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/colorpicker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/help/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/hr/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/image/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/imagetools/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/importcss/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/link/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/lists/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/media/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/paste/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/preview/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/print/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/save/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/table/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/template/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/textpattern/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/toc/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/content.mobile.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/skins/lightgray/skin.mobile.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/themes/inlite/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/themes/mobile/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/themes/modern/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/assets/js/tinymce/tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/bitm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/blog72.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_static.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php72.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bitmPHP72.iml" afterPath="$PROJECT_DIR$/.idea/bitmPHP72.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day-24/blog/app/classes/Blog.php" afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Blog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day-24/blog/index.php" afterPath="$PROJECT_DIR$/day-24/blog/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -155,49 +24,54 @@
       <file leaf-file-name="manageBlog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day-24/blog/admin/manageBlog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="-162">
+              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addBlog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day-24/blog/admin/addBlog.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day-24/blog/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-837">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Blog.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day-24/blog/app/classes/Blog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="100" column="107" lean-forward="false" selection-start-line="100" selection-start-column="107" selection-end-line="100" selection-end-column="107" />
+            <state relative-caret-position="273">
+              <caret line="72" column="52" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="52" />
               <folding>
-                <marker date="1516007183659" expanded="true" signature="133:185" ph="SELECT * FRO... categories" />
-                <marker date="1516007183659" expanded="true" signature="1571:1820" ph="INSERT INTO blogs... " />
-                <marker date="1516007183659" expanded="true" signature="2366:2403" ph="SELECT * FRO... blogs" />
-                <marker date="1516007183659" expanded="true" signature="2366:2451" ph="SELECT b.*, blogs" />
-                <marker date="1516007183659" expanded="true" signature="2773:2870" ph="SELECT b.*, blogs" />
-                <marker date="1516007183659" expanded="true" signature="2773:2871" ph="SELECT b.*, blogs" />
-                <marker date="1516007183659" expanded="true" signature="4161:4422" ph="update blogs... " />
-                <marker date="1516007183659" expanded="true" signature="4933:5169" ph="update blogs... " />
-                <marker date="1516007183659" expanded="true" signature="5474:5508" ph="delete FROM " />
+                <element signature="e#3248#3254#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editBlog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day-24/blog/admin/editBlog.php">
+      <file leaf-file-name="Blog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day-24/blog/app/classes/Blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="54">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
+              <folding>
+                <marker date="1516012151923" expanded="true" signature="133:185" ph="SELECT * FRO... categories" />
+                <marker date="1516012151923" expanded="true" signature="1571:1820" ph="INSERT INTO blogs... " />
+                <marker date="1516012151923" expanded="true" signature="2366:2403" ph="SELECT * FRO... blogs" />
+                <marker date="1516012151923" expanded="true" signature="2366:2451" ph="SELECT b.*, blogs" />
+                <marker date="1516012151923" expanded="true" signature="2773:2870" ph="SELECT b.*, blogs" />
+                <marker date="1516012151923" expanded="true" signature="2773:2871" ph="SELECT b.*, blogs" />
+                <marker date="1516012151923" expanded="true" signature="3281:3312" ph="SELECT * FRO... blogs" />
+                <marker date="1516012151923" expanded="true" signature="4425:4686" ph="update blogs... " />
+                <marker date="1516012151923" expanded="true" signature="5197:5433" ph="update blogs... " />
+                <marker date="1516012151923" expanded="true" signature="5738:5772" ph="delete FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day-24/blog/app/classes/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <marker date="1516013260515" expanded="true" signature="141:188" ph="SELECT * FRO... blogs" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,6 +88,8 @@
         <option value="$PROJECT_DIR$/day-24/blog/admin/viewBlog.php" />
         <option value="$PROJECT_DIR$/day-24/blog/admin/editBlog.php" />
         <option value="$PROJECT_DIR$/day-24/blog/app/classes/Blog.php" />
+        <option value="$PROJECT_DIR$/day-24/blog/app/classes/Application.php" />
+        <option value="$PROJECT_DIR$/day-24/blog/index.php" />
       </list>
     </option>
   </component>
@@ -313,28 +189,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day-24" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitmPHP72" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitmPHP72" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="day-23" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -415,15 +269,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516005401011</updated>
-      <workItem from="1516005402339" duration="4954000" />
+      <workItem from="1516005402339" duration="7958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4954000" />
+    <option name="totallyTimeSpent" value="7958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14348462" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -464,6 +318,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day-24/blog/admin/editBlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day-24/blog/admin/addBlog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-837">
@@ -474,34 +336,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day-24/blog/admin/manageBlog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="-162">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day-24/blog/admin/editBlog.php">
+    <entry file="file://$PROJECT_DIR$/day-24/blog/app/classes/Application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="324">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1516013260515" expanded="true" signature="141:188" ph="SELECT * FRO... blogs" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day-24/blog/app/classes/Blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="100" column="107" lean-forward="false" selection-start-line="100" selection-start-column="107" selection-end-line="100" selection-end-column="107" />
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <marker date="1516007183659" expanded="true" signature="133:185" ph="SELECT * FRO... categories" />
-            <marker date="1516007183659" expanded="true" signature="1571:1820" ph="INSERT INTO blogs... " />
-            <marker date="1516007183659" expanded="true" signature="2366:2403" ph="SELECT * FRO... blogs" />
-            <marker date="1516007183659" expanded="true" signature="2366:2451" ph="SELECT b.*, blogs" />
-            <marker date="1516007183659" expanded="true" signature="2773:2870" ph="SELECT b.*, blogs" />
-            <marker date="1516007183659" expanded="true" signature="2773:2871" ph="SELECT b.*, blogs" />
-            <marker date="1516007183659" expanded="true" signature="4161:4422" ph="update blogs... " />
-            <marker date="1516007183659" expanded="true" signature="4933:5169" ph="update blogs... " />
-            <marker date="1516007183659" expanded="true" signature="5474:5508" ph="delete FROM " />
+            <marker date="1516012151923" expanded="true" signature="133:185" ph="SELECT * FRO... categories" />
+            <marker date="1516012151923" expanded="true" signature="1571:1820" ph="INSERT INTO blogs... " />
+            <marker date="1516012151923" expanded="true" signature="2366:2403" ph="SELECT * FRO... blogs" />
+            <marker date="1516012151923" expanded="true" signature="2366:2451" ph="SELECT b.*, blogs" />
+            <marker date="1516012151923" expanded="true" signature="2773:2870" ph="SELECT b.*, blogs" />
+            <marker date="1516012151923" expanded="true" signature="2773:2871" ph="SELECT b.*, blogs" />
+            <marker date="1516012151923" expanded="true" signature="3281:3312" ph="SELECT * FRO... blogs" />
+            <marker date="1516012151923" expanded="true" signature="4425:4686" ph="update blogs... " />
+            <marker date="1516012151923" expanded="true" signature="5197:5433" ph="update blogs... " />
+            <marker date="1516012151923" expanded="true" signature="5738:5772" ph="delete FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-24/blog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="72" column="52" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="52" />
+          <folding>
+            <element signature="e#3248#3254#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
