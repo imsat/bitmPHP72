@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/php72.iml" filepath="$PROJECT_DIR$/.idea/php72.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bitmPHP72.iml" filepath="$PROJECT_DIR$/.idea/bitmPHP72.iml" />
     </modules>
   </component>
 </project>
