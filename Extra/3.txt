@@ -116,8 +116,12 @@ composer
  Web Design Batch-64 (DHK)
 
 
-
-
+file upload
+data =2 type
+raw data and file data
+raw data=without extention(EX: 13251,0171)
+file data= with extentaion data
+enctype ==use kora hoy file data gulare $_FILES array te  nia jowar jonno
 
 
 
