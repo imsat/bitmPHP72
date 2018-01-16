@@ -6,7 +6,7 @@ include 'includes/header.php';
 $queryResult = Blog::getAllPublishedCategory();
 
 $id = $_GET['id'];
-$blogResult = Blog::viewAllBlogInfo($id );
+$blogResult = Blog::viewAllBlogInfo($id);
 $blogResult = mysqli_fetch_assoc($blogResult);
 if(isset($_POST['btn'])){
     $updateBlog = Blog::updateBlogInfo($_POST, $id);
